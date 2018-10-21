@@ -1,0 +1,55 @@
+.left{
+    width: 250px;
+    height: 500px;
+    /* border: 1px solid blue; */
+    border:1px whitesmoke solid;
+    margin-left: 100px;
+}
+.right{
+    position: absolute;
+    left: 400px;
+    top: 80px;
+    width: 700px;
+    height: 500px;
+    /* border: 1px solid blue; */
+    border:1px whitesmoke solid;
+}
+span{
+    padding: 50px;
+}
+img {
+    padding-left: 50px;
+}
+#name{
+    padding-left: 110px;
+    padding-top: 20px;
+}
+.text{
+    padding-top: 100px;
+    padding-left: 60px;
+}
+li{
+    padding: 15px;
+    float: left;
+    font-size: 18px;
+    /* background: orange; */
+}
+.right ul li{
+    
+    padding-left: 40px;
+    float: left;
+}
+.tongbu{
+    position: absolute;
+    left: 600px;
+    top: 350px;
+    font-size: 22px;
+    border:1px whitesmoke solid;
+}
+.right ul li span{
+    padding: 10px;
+}
+input{
+    height: 25px;
+    padding-right: 50px;
+}

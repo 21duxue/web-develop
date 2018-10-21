@@ -1,0 +1,26 @@
+
+<div id="select"><select>
+  <option value="课程分类">课程分类</option>
+  <option value="课程分类2">课程分类</option>
+  <option value="课程分类3">课程分类</option>
+</select>
+<select>
+  <option value="课程体系">课程体系</option>
+  <option value="课程分类2">课程分类</option>
+  <option value="课程分类3">课程分类</option>
+</select></div>
+<div class="container">
+  <ul>
+    <li *ngFor ="let course of courses1">
+      <a [routerLink]="['/course',course.id]">
+          <img src="{{course.images}}" alt="">
+          <h3>{{course.courseName}}</h3>
+          <span class="text">{{course.text}}</span>
+          <div id="num">
+            <span>课时：{{course.task}}</span>
+            <span>人数：{{course.person}}</span>
+          </div>
+      </a>
+    </li>
+  </ul>
+</div>

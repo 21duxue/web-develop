@@ -1,0 +1,55 @@
+.container li{
+    width: 160px;
+    float: left;
+    height: 250px;
+    margin-right: 10px;
+    border: 1px rgb(243, 236, 236) solid;
+}
+img{
+    width: 150px;
+    height: 80px;
+}
+h3{
+    padding: 5px;
+    padding-left: 20px;
+    color: black;
+}
+span{
+    padding-left: 5px;
+    margin-bottom: 10px;
+    color: darkgray;
+}
+#num{
+   /* border: 1px rgb(22, 17, 17) solid; */
+   margin-top: 15px;
+}
+button{
+    margin-left:110px;
+}
+
+.text{
+    color: darkgray;
+}
+.right{
+    position: absolute;
+    left: 400px;
+    top: 80px;
+    width: 700px;
+    height: 500px;
+    /* border: 1px solid blue; */
+    border:1px whitesmoke solid;
+}
+.top li{
+    float: left;
+    margin-right: 40px;
+    margin-top: 20px;
+
+}
+.container{
+    clear: both;
+    margin-top: 60px;
+}
+
+hr{
+    clear: both;
+}

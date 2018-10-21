@@ -1,0 +1,23 @@
+<div class="left">
+    <div class="img">
+      <img src="http://www.edu2act.net/static/img/m.png">
+      <div id="name"><h3>杜雪</h3></div><br>
+      <span>粉丝</span>
+      <span>关注</span>
+    </div>  
+    
+    <ul class="text">
+      <a [routerLink]="['./renwudetail']">
+        <li>任务&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></li>
+      </a>
+      <a [routerLink]="['./tongbukedetail']">
+        <li>同步课&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></li>
+      </a>
+      <a [routerLink]="['./home-coursedetail']">
+        <li>课程&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></li>
+      </a>
+    </ul>
+</div>
+<div class="rigth">
+  <router-outlet></router-outlet>
+</div>

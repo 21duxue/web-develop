@@ -1,0 +1,24 @@
+<div class="right">
+  <div class="top">
+      <p>我加入的</p>
+      <input type="text" placeholder="输入同步课名称搜索">
+  </div>
+  
+  <ul>
+    <li *ngFor ="let course of courses">
+          <div><img src="{{course.images}}" alt=""></div>
+          <div class="h3"><h3>{{course.courseName}}</h3></div>
+          <div id="num">
+            <span><img src="assets/images/4.png">{{course.task}}</span>
+            <span><img src="assets/images/2.png">{{course.person}}</span>
+          </div>
+          <div class="yuan">
+              <img src="assets/images/6.png">
+          </div>
+    </li>
+  </ul>
+  
+</div>
+ 
+   
+

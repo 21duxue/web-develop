@@ -1,0 +1,26 @@
+<div class="right">
+   
+      <div class="top">
+         <ul>
+          <li>正在学习</li>
+          <li>我关注的</li>
+          <li>我看过的</li>
+         </ul>
+      </div>
+      <hr>
+      <div class="container">
+          <ul>
+            <li *ngFor ="let course of courses1">
+              <a [routerLink]="['/course',course.id]">
+                  <img src="{{course.images}}" alt="">
+                  <h3>{{course.courseName}}</h3>
+                  <span class="text">{{course.text}}</span>
+                  <div id="num">
+                    <span>课时：{{course.task}}</span>
+                    <span>人数：{{course.person}}</span>
+                  </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+</div>

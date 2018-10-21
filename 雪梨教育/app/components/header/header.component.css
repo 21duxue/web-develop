@@ -1,0 +1,35 @@
+nav{
+    height: 50px;
+    background-color: #ccc;
+}
+.nav{
+    width: 800px;
+    margin: 0 auto;
+    line-height: 50px;
+    position:absolute ;
+    left:480px ;
+}
+.nav li{
+    float: left;
+    margin: 0 25px;
+    cursor: pointer;
+}
+.txt{
+ position: absolute;
+ left: 820px;
+ height: 30px;
+ width: 200px;
+ margin-top: 8px;
+ font-size: 18px
+}
+.btn{
+    position: absolute;
+    left: 1023px;
+    height: 34px;
+    margin-top: 8px;
+    font-size: 18px;
+}
+img{
+    position: absolute;
+    left: 100px;
+}

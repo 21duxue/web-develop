@@ -1,0 +1,59 @@
+
+.right{
+    position: absolute;
+    left: 400px;
+    top: 80px;
+    width: 700px;
+    height: 500px;
+    /* border: 1px solid blue; */
+    border:1px whitesmoke solid;
+}
+/* h3{
+    margin-left: 300px;
+    margin-top: -100px;
+} */
+li{
+    margin-bottom: 20px;
+    border:1px rgb(199, 193, 193) solid;
+    border-right: 0;
+    border-left: 0;
+    height: 140px;;
+}
+.h3{
+    margin-top: -120px;
+    margin-left: 250px;
+}
+#num{
+    margin-top: 70px;
+    margin-left: 250px;
+}
+.top{
+    margin-bottom: 30px;
+}
+input{
+    position: absolute;
+    left: 500px;
+    top:25px;
+    height: 28px;
+    width: 200px;
+}
+p{
+    padding-top: 25px;
+    color:orange;
+    line-height: 28px;
+}
+span img{
+    width: 15px;
+    height: 15px;
+}
+span{
+    margin-left: 20px;
+}
+.yuan img{
+    width: 120px;
+    height: 120px;
+}
+.yuan{
+    margin-left:580px ;
+    margin-top: -110px;
+}

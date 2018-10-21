@@ -1,0 +1,36 @@
+.container{
+    width:1200 ;
+    margin: 0 auto;
+    padding-left: 100px;
+    
+}
+
+.container li{
+    width: 270px;
+    float: left;
+    height: 300px;
+    margin-right: 10px;
+    border: 1px rgb(211, 207, 207) solid;
+    margin-top: 50px;
+}
+img{
+    width: 270px;
+    height: 170px;
+}
+h3{
+    padding: 10px;
+    padding-left: 80px;
+    color: #000;
+}
+span{
+    padding-left: 30px;
+    margin-bottom: 10px;
+    color: darkgrey;
+}
+#num{
+   /* border: 1px rgb(22, 17, 17) solid; */
+   margin-top: 50px;
+}
+button{
+    margin-left:110px;
+}

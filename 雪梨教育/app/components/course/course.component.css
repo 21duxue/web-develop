@@ -1,0 +1,58 @@
+.container{
+    width:1200 ;
+    margin: 0 auto;
+}
+
+.container li{
+    width: 297px;
+    float: left;
+    margin-right: 3px;
+}
+.container{
+    width:1200 ;
+    margin: 0 auto;
+    padding-left: 100px;
+    
+}
+
+.container li{
+    width: 270px;
+    float: left;
+    height: 340px;
+    margin-right: 10px;
+    border: 1px rgb(243, 236, 236) solid;
+}
+img{
+    width: 270px;
+    height: 170px;
+}
+h3{
+    padding: 10px;
+    padding-left: 80px;
+    color: black;
+}
+span{
+    padding-left: 30px;
+    margin-bottom: 10px;
+    color: darkgray;
+}
+#num{
+   /* border: 1px rgb(22, 17, 17) solid; */
+   margin-top: 35px;
+}
+button{
+    margin-left:110px;
+}
+#select{
+    margin-left: 100px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+select{
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+}
+.text{
+    color: darkgray;
+}

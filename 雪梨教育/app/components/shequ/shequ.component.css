@@ -1,0 +1,72 @@
+.touxiang{
+    position: absolute;
+    left: 100px;
+}
+.img{
+    margin-left: 210px;
+    margin-top:-10px ;
+}
+.img img{
+    width: 140px;
+    height: 100px;
+}
+.touxiang{
+    margin-left:70px ;
+    margin-top: -20px;
+}
+.touxiang img{
+    width: 60px;
+    height: 60px;
+}
+h3{
+    margin-left: 370px;
+    margin-top: -100px;
+    color: black;
+}
+.container li{
+   padding: 30px;
+   border: 1px solid rgb(250, 245, 245);
+   height: 100px;
+   width: 900px;
+}
+.container{
+    height: 500px;  
+}
+#name{
+    margin-left: 210px;
+    margin-top: 10px;
+}
+.text{
+    width: 560px;
+    height: 50px;
+    margin-left: 360px;
+    margin-top: 20px;
+    color: grey;
+}
+#read{
+    margin-left: 750px;
+    margin-top:-20px;
+}
+#read span{
+    padding-left: 5px;
+}
+span{
+    color: gray;
+}
+.right{
+    position: absolute;
+    left: 980px;
+    top: 150px;
+}
+.right li{
+    
+    padding: 10px;
+}
+.right h3{
+    position: absolute;
+    left: -350px;
+    top: 70px;
+}
+.right li span{
+    margin-left: 40px;
+}
