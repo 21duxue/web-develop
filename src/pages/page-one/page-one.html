@@ -1,0 +1,16 @@
+<ion-segment [(ngModel)]="icons" >
+    <ion-segment-button value="camera">
+      <ion-icon name="camera"></ion-icon>
+    </ion-segment-button>
+    <ion-segment-button value="bookmark">
+      <ion-icon name="bookmark"></ion-icon>
+    </ion-segment-button>
+  </ion-segment>
+  <div [ngSwitch]="icons" >
+    <div *ngSwitchCase="'camera'" active>
+      这是camera
+    </div>
+    <div *ngSwitchCase="'bookmark'">
+      这是bookMark
+    </div>
+  </div>
